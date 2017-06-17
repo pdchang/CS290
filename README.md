@@ -1,2 +1,2 @@
 # CS290
-cs290 stuff
+My CS 290 Course Work
