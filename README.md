@@ -1,2 +1,2 @@
 # CS290
-My CS 290 Course Work
+CS 290 - Web Development
