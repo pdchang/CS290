@@ -1,0 +1,24 @@
+/* Philip Chang CS 290 HW6 ajax */
+
+* {
+    font: 16px Tahoma, sans-serif;
+}
+
+.weather {
+  background-color: LightSkyBlue;
+  text-align: left;
+}
+#results{
+  background-color: LightSteelBlue;
+}
+.htbin {
+  background-color: Plum
+}
+#results2{
+  background-color: Thistle;
+}
+
+label{
+  display:inline-block;
+  width:75px;
+}

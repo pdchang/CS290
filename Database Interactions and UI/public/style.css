@@ -1,0 +1,51 @@
+body {
+    font-family: helvetica;
+    background-image: url("weight.jpg");
+}
+label {
+    width: auto;
+    display: inline-block;
+}
+input[type=submit] {
+    width: 100px;
+}
+table {
+    border-collapse: collapse;
+}
+fieldset {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    position: relative;
+    border: 2px groove threedface;
+}
+
+legend {
+
+    top: -1px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    border: 2px groove threedface;
+    border-top: none;
+    box-shadow: inset 0 -5px 5px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    font-weight: bold;
+    border: solid 1px black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+legend span {
+    display: block;
+    margin: -20px;
+    background: #fff;
+    padding: 0px 20px;
+}
+table, th, td {
+   border: 1px solid black;
+}

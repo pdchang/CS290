@@ -1,0 +1,36 @@
+/* Philip Chang CS 290 HW2 HTML/CSS Assignment */
+tbody td:nth-child(1){
+  font-style: italic;
+}
+
+tbody td:nth-child(2) {
+  color: red;
+}
+
+tbody td:nth-child(4) {
+  color: blue;
+}
+
+tbody tr:nth-of-type(odd) {
+   background-color: palegreen;
+}
+
+tbody tr:nth-of-type(even) {
+   background-color: lightskyblue;
+}
+
+.outer-content {
+  left:0px;
+  width: 75%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: pink;
+
+}
+
+.inner-content {
+  width: 75%;
+  background-color: lightskyblue;
+  margin: 0 auto;
+  text-align: center;
+}

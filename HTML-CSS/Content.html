@@ -1,0 +1,129 @@
+<!-- Philip Chang - CS 290 - HW#2 HTML/CSS -->
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>HTML/CSS Week 2 Assignment</title>
+   <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+   <table>
+     <table border="1">
+     <caption>Multiplication Table</caption>
+     <thead>
+       <tr>
+         <th></th>
+         <th> 1</th>
+         <th> 2</th>
+         <th> 3</th>
+         <th> 4</th>
+         <th> 5</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>1</td>
+         <td>1</td>
+         <td>2</td>
+         <td>3</td>
+         <td>4</td>
+         <td>5</td>
+       </tr>
+       <tr>
+         <td>2</td>
+         <td>2</td>
+         <td>4</td>
+         <td>6</td>
+         <td>8</td>
+         <td>10</td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td>3</td>
+         <td>6</td>
+         <td>9</td>
+         <td>12</td>
+         <td>15</td>
+       </tr>
+       <tr>
+         <td>4</td>
+         <td>4</td>
+         <td>8</td>
+         <td>12</td>
+         <td>16</td>
+         <td>20</td>
+       </tr>
+       <tr>
+         <td>5</td>
+         <td>5</td>
+         <td>10</td>
+         <td>15</td>
+         <td>20</td>
+         <td>25</td>
+       </tr>
+     </tbody>
+     <tfoot>
+       <tr>
+         <td colspan="2">Footer 1</td>
+         <td colspan="4">Footer 2</td>
+       </tr>
+     </tfoot>
+     <t/body>
+   </table>
+   <ol>
+     <li>eat</li>
+     <ul><li>do first</li></ul>
+     <li>sleep</li>
+     <ul><li>do second</li></ul>
+     <li>study</li>
+     <ul><li>do last</li></ul>
+   </ol>
+   <div class="outer-content">
+     <div class="inner-content">Here is some content</div>
+   </div>
+   <fieldset>
+       <legend>Some GET data</legend>
+       <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+           <fieldset>
+               <p>Text Here:<input type="text" name="text_input">
+           </fieldset>
+           <fieldset>
+               <p>Number Here:<input type="number" name="numerical_input">
+           </fieldset>
+           <fieldset>
+               <p>Password Here:<input type="password" name="password_input">
+           </fieldset>
+           <fieldset>
+               <p>Select between:</p>
+               <input type="radio" name="candy" value="Snickers" checked>Snickers<br /><br />
+               <input type="radio" name="candy" value="Skittles">Skittles<br /><br />
+               <input type="radio" name="candy" value="Mentos">Mentos<br /><br />
+               <input type="submit">
+           </fieldset>
+       </form>
+   </fieldset>
+   <br /><br /><br /><br />
+   <fieldset>
+       <legend>Some POST data</legend>
+       <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+           <fieldset>
+               <p>Text Here:<input type="text" name="text_input">
+           </fieldset>
+           <fieldset>
+               <p>Number Here:<input type="number" name="numerical_input">
+           </fieldset>
+           <fieldset>
+               <p>Password Here:<input type="password" name="password_input">
+           </fieldset>
+           <fieldset>
+               <p>Select between:</p>
+               <input type="radio" name="candy" value="Snickers" checked>Snickers<br /><br />
+               <input type="radio" name="candy" value="Skittles">Skittles<br /><br />
+               <input type="radio" name="candy" value="Mentos">Mentos<br /><br />
+               <input type="submit">
+           </fieldset>
+       </form>
+   </fieldset>
+   </div>
+ </body>
+</html>
