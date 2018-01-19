@@ -1,2 +1,1 @@
-# CS290
-CS 290 - Web Development
+Web Development Things
